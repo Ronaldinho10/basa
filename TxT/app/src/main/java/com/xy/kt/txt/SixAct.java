@@ -1,17 +1,13 @@
 package com.xy.kt.txt;
 
 import android.app.Activity;
-import android.content.Context;
 import android.os.Bundle;
-import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.BaseAdapter;
-import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.xy.kt.txt.scrollview.HorizonalScrollLayout;
+import com.xy.kt.txt.scrollview.VerticalScrollLayout;
 
 import java.util.ArrayList;
 import java.util.List;

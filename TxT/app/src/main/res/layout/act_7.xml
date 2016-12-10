@@ -5,16 +5,16 @@
     android:background="#000000"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
-  <com.xy.kt.txt.VerticalScrollLayout
+  <com.xy.kt.txt.scrollview.VerticalScrollLayout
       android:id="@+id/id_vertical_layout"
       android:layout_width="match_parent"
       android:layout_marginTop="100dp"
       android:layout_height="41dp"
       android:background="#06bf04"
       android:orientation="vertical">
-  </com.xy.kt.txt.VerticalScrollLayout>
+  </com.xy.kt.txt.scrollview.VerticalScrollLayout>
 
-  <com.xy.kt.txt.HorizonalScrollLayout
+  <com.xy.kt.txt.scrollview.HorizonalScrollLayout
       android:id="@+id/id_horizonal"
       android:layout_width="250dp"
       android:layout_marginTop="250dp"
@@ -22,5 +22,5 @@
       android:paddingRight="50dp"
       android:background="#06bf04"
       android:orientation="vertical">
-  </com.xy.kt.txt.HorizonalScrollLayout>
+  </com.xy.kt.txt.scrollview.HorizonalScrollLayout>
 </FrameLayout>

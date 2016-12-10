@@ -1,4 +1,4 @@
-package com.xy.kt.txt;
+package com.xy.kt.txt.pinned.section.list;
 
 import android.app.Activity;
 import android.graphics.Color;
@@ -10,6 +10,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+
+import com.xy.kt.txt.R;
+import com.xy.kt.txt.pinned.section.list.PinnedSectionListView;
 
 import java.util.ArrayList;
 import java.util.List;

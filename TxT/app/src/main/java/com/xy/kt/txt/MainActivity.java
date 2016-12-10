@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.xy.kt.txt.pinned.section.grid.PinnedSectionGridViewActivity;
+import com.xy.kt.txt.pinned.section.list.ActPullPinnedSection;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -20,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,SixAct.class);
+                Intent intent = new Intent(MainActivity.this,PinnedSectionGridViewActivity.class);
                 startActivity(intent);
             }
         });

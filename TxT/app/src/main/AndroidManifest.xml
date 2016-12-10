@@ -25,9 +25,11 @@
         </activity>
         <activity android:name=".SixAct">
         </activity>
-        <activity android:name=".ActPinnedSection">
+        <activity android:name=".pinned.section.list.ActPinnedSection">
         </activity>
-        <activity android:name=".ActPullPinnedSection">
+        <activity android:name=".pinned.section.list.ActPullPinnedSection">
+        </activity>
+        <activity android:name=".pinned.section.grid.PinnedSectionGridViewActivity">
         </activity>
     </application>
 

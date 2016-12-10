@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="index" type="id" />
+    <item name="position" type="id" />
+    <item name="data" type="id" />
+    <item name="holder" type="id" />
+    <item name="type" type="id" />
+    <item name="dataset" type="id" />
+</resources>

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xy.kt.txt;
+package com.xy.kt.txt.pinned.section.list;
 
 import android.content.Context;
 import android.database.DataSetObserver;

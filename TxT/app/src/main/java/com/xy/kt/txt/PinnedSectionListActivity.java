@@ -34,6 +34,8 @@ import android.widget.SectionIndexer;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.xy.kt.txt.pinned.section.list.PinnedSectionListView;
+
 import java.util.Locale;
 
 public class PinnedSectionListActivity extends ListActivity implements OnClickListener {

@@ -6,10 +6,10 @@
         android:id="@+id/ptr_frame"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <com.xy.kt.txt.PinnedSectionListView
+        <com.xy.kt.txt.pinned.section.list.PinnedSectionListView
             android:id="@+id/list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-        </com.xy.kt.txt.PinnedSectionListView>
+        </com.xy.kt.txt.pinned.section.list.PinnedSectionListView>
     </in.srain.cube.views.ptr.PtrClassicFrameLayout>
 </LinearLayout>

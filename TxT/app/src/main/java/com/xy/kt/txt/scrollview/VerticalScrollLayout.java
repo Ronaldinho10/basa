@@ -1,4 +1,4 @@
-package com.xy.kt.txt;
+package com.xy.kt.txt.scrollview;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
