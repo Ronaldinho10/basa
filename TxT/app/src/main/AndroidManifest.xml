@@ -31,6 +31,8 @@
         </activity>
         <activity android:name=".pinned.section.grid.PinnedSectionGridViewActivity">
         </activity>
+        <activity android:name=".DelAct">
+        </activity>
     </application>
 
 </manifest>
