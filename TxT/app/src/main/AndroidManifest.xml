@@ -33,6 +33,10 @@
         </activity>
         <activity android:name=".DelAct">
         </activity>
+        <activity android:name="com.xy.kt.txt.Thirteen3Act">
+        </activity>
+        <activity android:name="com.xy.kt.txt.FourteenAct">
+        </activity>
     </application>
 
 </manifest>
