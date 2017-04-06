@@ -10,6 +10,18 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.xy.kt.txt.MainActivity">
 
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button2"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginTop="10dp"
+        android:text="圆形View" />
+
     <TextView
         android:id="@+id/id_test"
         android:layout_width="wrap_content"
@@ -68,13 +80,12 @@
         android:id="@+id/button5" />
 
     <Button
-        android:text="圆形View"
+        android:text="圆圈钩"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/button2"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="54dp"
-        android:layout_marginEnd="54dp"
-        android:id="@+id/button6" />
+        android:id="@+id/button16"
+        android:layout_alignBaseline="@+id/button3"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_alignStart="@+id/button7" />
 </RelativeLayout>

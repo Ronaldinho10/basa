@@ -37,6 +37,8 @@
         </activity>
         <activity android:name="com.xy.kt.txt.FourteenAct">
         </activity>
+        <activity android:name=".SixTeenAct">
+        </activity>
     </application>
 
 </manifest>
