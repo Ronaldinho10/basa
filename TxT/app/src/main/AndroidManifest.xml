@@ -38,7 +38,10 @@
         <activity android:name="com.xy.kt.txt.FourteenAct">
         </activity>
         <activity android:name=".SixTeenAct">
-        </activity>
+    </activity>
+        <activity android:name=".NvAct"/>
+        <activity android:name=".SevAct"/>
+        <activity android:name=".PullToZoomListAct"/>
     </application>
 
 </manifest>

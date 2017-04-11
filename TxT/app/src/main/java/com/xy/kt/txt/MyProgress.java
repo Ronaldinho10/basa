@@ -25,6 +25,7 @@ public class MyProgress extends View {
     private static final int PROGRESS_COLOR = Color.parseColor("#06bf04");
     private static final int PROGRESS_WIDTH = 3;
     private static final int RADIUS = 30;
+    private static final String TAG = "MyProgress";
 
     private int mProgressColor = PROGRESS_COLOR;
     private int mProgressWidth = dp2px(PROGRESS_WIDTH);
@@ -32,14 +33,14 @@ public class MyProgress extends View {
 
     private Paint progressPaint;
 
-    private int rotateDelta = 4;
+    private int rotateDelta = 5;
     private int curAngle = 0;
 
     private int minAngle = -90;
     private int startAngle = -90;
     private int endAngle = 120;
 
-    private Path path;
+//    private Path path;
     private Status mStatus = Status.Loading;
     private float lineValueLeft;//左边对勾
     private float lineValueRight;//右边对勾
@@ -77,11 +78,6 @@ public class MyProgress extends View {
         typedArray.recycle();
         //设置画笔
         setPaint();
-
-        path = new Path();
-        path.moveTo(mRadius/2,mRadius);
-        path.lineTo(mRadius,mRadius+mRadius/2);
-        path.lineTo(mRadius+mRadius/2,mRadius/2);
     }
 
     private void setPaint() {
@@ -115,7 +111,7 @@ public class MyProgress extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-
+        Log.i(TAG,"getPaddingLeft()="+getPaddingLeft()+"   getPaddingTop()="+getPaddingTop()+"     "+canvas.getWidth()+"  "+canvas.getHeight()+"   "+mProgressWidth);
         canvas.save();
         canvas.translate(getPaddingLeft(),getPaddingTop());
 
@@ -150,6 +146,7 @@ public class MyProgress extends View {
         }
 
         canvas.restore();
+//        Log.i(TAG,"startAngle:"+startAngle+"  minAngle:"+minAngle+"  endAngle:"+endAngle+"  curAngle:"+curAngle+"   mRadius:"+mRadius);
     }
 
 

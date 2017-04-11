@@ -17,6 +17,7 @@ public class SixTeenAct extends Activity {
 
     MyProgress myProgress;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

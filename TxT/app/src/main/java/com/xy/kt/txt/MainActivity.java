@@ -69,5 +69,26 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        findViewById(R.id.button17).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,NvAct.class);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.button18).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,SevAct.class);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.button19).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,PullToZoomListAct.class);
+                startActivity(intent);
+            }
+        });
     }
 }

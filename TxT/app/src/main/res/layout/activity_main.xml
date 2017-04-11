@@ -11,6 +11,16 @@
     tools:context="com.xy.kt.txt.MainActivity">
 
     <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button3"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_alignStart="@+id/button7"
+        android:text="圆圈钩" />
+
+    <Button
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -39,6 +49,15 @@
         android:layout_marginStart="58dp"
         android:layout_marginTop="50dp"
         android:id="@+id/button" />
+    <Button
+        android:text="拉伸View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button19"
+        android:layout_alignBaseline="@+id/button"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_alignStart="@+id/button7" />
 
     <Button
         android:text="打开第三个"
@@ -80,12 +99,21 @@
         android:id="@+id/button5" />
 
     <Button
-        android:text="圆圈钩"
+        android:text="Navigation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button16"
-        android:layout_alignBaseline="@+id/button3"
-        android:layout_alignBottom="@+id/button3"
-        android:layout_alignLeft="@+id/button7"
-        android:layout_alignStart="@+id/button7" />
+        android:id="@+id/button17"
+        android:layout_alignBaseline="@+id/button4"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignLeft="@+id/button16"
+        android:layout_alignStart="@+id/button16" />
+
+    <Button
+        android:text="test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button18"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button17"
+        android:layout_alignStart="@+id/button17" />
 </RelativeLayout>
